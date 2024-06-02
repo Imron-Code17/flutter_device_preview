@@ -7,7 +7,7 @@ Approximate how your Flutter app looks and performs on another device.
     <a alt='View on pub' title='View on pub' href='https://pub.dev/packages/device_preview'>
         <img class='social-icon' src='./images/pub_logo.svg' />
     </a>
-    <a alt='View on GitHub' title='View on GitHub' href='https://github.com/aloisdeniel/flutter_device_preview'>
+    <a alt='View on GitHub' title='View on GitHub' href='https://github.com/Imron-Code17/flutter_device_preview'>
         <img class='social-icon' src='./images/github_logo.svg' />
     </a>
 </div>

@@ -12,4 +12,4 @@ All the custom painter code is generated with [fluttershapemaker](https://flutte
 
 # Send a pull request
 
-Once your design is ready, create [a new pull request](https://github.com/aloisdeniel/flutter_device_preview/pulls) with your files added to the `device_frame/lib/src/devices/` directory.
+Once your design is ready, create [a new pull request](https://github.com/Imron-Code17/flutter_device_preview/pulls) with your files added to the `device_frame/lib/src/devices/` directory.

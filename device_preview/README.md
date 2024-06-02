@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://github.com/aloisdeniel/flutter_device_preview/raw/master/logo.png" alt="Device Preview for Flutter" />
+  <img src="https://github.com/Imron-Code17/flutter_device_preview/raw/master/logo.png" alt="Device Preview for Flutter" />
 </p>
 
 <h4 align="center">Approximate how your app looks and performs on another device.</h4>
 
 <p align="center">
   <a href="https://pub.dartlang.org/packages/device_preview"><img src="https://img.shields.io/pub/v/device_preview.svg"></a>
-  <a href="https://www.buymeacoffee.com/aloisdeniel">
+  <a href="https://www.buymeacoffee.com/Imron-Code17">
     <img src="https://img.shields.io/badge/$-donate-ff69b4.svg?maxAge=2592000&amp;style=flat">
   </a>
 </p>
 
 <p align="center">
-  <img src="https://github.com/aloisdeniel/flutter_device_preview/raw/master/device_preview.gif" alt="Device Preview for Flutter" />
+  <img src="https://github.com/Imron-Code17/flutter_device_preview/raw/master/device_preview.gif" alt="Device Preview for Flutter" />
 </p>
 
 ## Main features
@@ -73,7 +73,7 @@ class MyApp extends StatelessWidget {
 
 ## Documentation
 
-<a href='https://aloisdeniel.github.io/flutter_device_preview/' target='_blank'>Open the website</a>
+<a href='https://Imron-Code17.github.io/flutter_device_preview/' target='_blank'>Open the website</a>
 
 ## Demo
 

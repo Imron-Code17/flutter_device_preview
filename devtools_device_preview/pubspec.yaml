@@ -1,7 +1,7 @@
 name: devtools_device_preview
 description: Approximate how your Flutter app looks and performs on another device from the Flutter devtools.
 version: 0.5.0-alpha.1
-homepage: https://github.com/aloisdeniel/flutter_device_preview
+homepage: https://github.com/Imron-Code17/flutter_device_preview
 
 environment:
   sdk: '>=3.2.6 <4.0.0'

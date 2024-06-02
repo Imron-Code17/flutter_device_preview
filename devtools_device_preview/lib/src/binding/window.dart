@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use, override_on_non_overriding_member
+
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
@@ -79,13 +81,6 @@ class PreviewWindow implements ui.SingletonFlutterWindow {
   @override
   set onSemanticsEnabledChanged(ui.VoidCallback? value) =>
       parent.onSemanticsEnabledChanged = value;
-
-  @override
-  ui.SemanticsActionCallback? get onSemanticsAction => parent.onSemanticsAction;
-
-  @override
-  set onSemanticsAction(ui.SemanticsActionCallback? value) =>
-      parent.onSemanticsAction = value;
 
   @override
   ui.VoidCallback? get onTextScaleFactorChanged =>
@@ -246,9 +241,6 @@ class PreviewWindow implements ui.SingletonFlutterWindow {
       parent.updateSemantics(update);
 
   @override
-  ui.ViewConfiguration get viewConfiguration => parent.viewConfiguration;
-
-  @override
   ui.WindowPadding get viewInsets => parent.viewInsets;
 
   ui.WindowPadding? _previewViewPadding;
@@ -278,6 +270,22 @@ class PreviewWindow implements ui.SingletonFlutterWindow {
 
   @override
   String? get systemFontFamily => parent.systemFontFamily;
+
+  @override
+  // TODO: implement display
+  ui.Display get display => throw UnimplementedError();
+
+  @override
+  // TODO: implement gestureSettings
+  ui.GestureSettings get gestureSettings => throw UnimplementedError();
+
+  @override
+  // TODO: implement nativeSpellCheckServiceDefined
+  bool get nativeSpellCheckServiceDefined => throw UnimplementedError();
+
+  @override
+  // TODO: implement viewId
+  int get viewId => throw UnimplementedError();
 }
 
 class PreviewWindowPadding implements ui.WindowPadding {

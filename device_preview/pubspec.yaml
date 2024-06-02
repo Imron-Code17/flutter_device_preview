@@ -4,15 +4,15 @@ description: Approximate how your Flutter app looks and performs on another devi
 homepage: https://github.com/aloisdeniel/flutter_device_preview
 
 environment:
-  sdk: '>=3.3.0-0 <4.0.0'
-  flutter: ">=3.22.0"
+  sdk: '>=3.2.6 <4.0.0'
+  
 dependencies:
   flutter:
     sdk: flutter
   flutter_localizations:
     sdk: flutter
   provider: ^6.1.2
-  device_frame: ^1.2.0
+  device_frame: ^1.1.0
   freezed_annotation: ^2.4.1
   json_annotation: ^4.9.0
   shared_preferences: ^2.2.3

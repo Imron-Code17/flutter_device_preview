@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'dart:ui' as ui;
 
 import 'package:device_frame/device_frame.dart';
@@ -48,8 +50,7 @@ class PreviewWidgetsFlutterBinding extends BindingBase
   /// binding instance to a [TestWidgetsFlutterBinding], not a
   /// [WidgetsFlutterBinding].
   static WidgetsBinding ensureInitialized() {
-    if (WidgetsBinding.instance == null) PreviewWidgetsFlutterBinding();
-    return WidgetsBinding.instance!;
+    return WidgetsBinding.instance;
   }
 
   ui.SingletonFlutterWindow? _previewWindow;
@@ -112,16 +113,6 @@ class PreviewWidgetsFlutterBinding extends BindingBase
   @override
   ui.SingletonFlutterWindow get window =>
       _previewWindow ??= PreviewWindow(super.window);
-
-  @override
-  void initRenderView() {
-    super.initRenderView();
-    renderView = PreviewRenderView(
-      configuration: createViewConfiguration(),
-      window: window,
-    );
-    renderView.prepareInitialFrame();
-  }
 
   @override
   void handlePointerEvent(PointerEvent event) {
